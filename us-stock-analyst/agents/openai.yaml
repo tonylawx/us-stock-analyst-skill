@@ -1,0 +1,4 @@
+interface:
+  display_name: "US Stock Analyst"
+  short_description: "Write Tony-style US stock daily briefs"
+  default_prompt: "Use $us-stock-analyst to turn today's public market materials into a sharper US stock daily brief."
