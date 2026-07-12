@@ -30,17 +30,21 @@ Before writing or judging a draft, read `references/blog-style-baseline.md` and 
 
 ## Writing Standard
 
-Start with the tape, not the headline. The first section should answer: did the index move actually have breadth, volume, closing strength, and overnight confirmation?
+Start with the tape, not the headline. The first section should answer: did the index move actually have breadth, volume, closing strength, and overnight confirmation? When breadth diverges from the index direction, lead with the breadth story.
 
 Turn news into a trading structure. A catalyst matters only after it changes a level, trend, rotation, valuation story, or risk trigger.
 
-Keep one core tension. Examples: semis up but software weak, index green but breadth poor, AI capex story intact but storage price action breaking, defensive rotation real or temporary. Secondary tickers must serve the tension.
+Keep one core tension. Examples: semis up but software weak, index green but breadth poor, AI capex story intact but storage price action breaking, defensive rotation real or temporary, aggressive pricing disrupts competitors but stock holds support. Secondary tickers must serve the tension.
 
 Use levels as decision points. Write `站稳`, `跌破`, `守住`, `回到`, `上看`, `下看`, `观察`, and `验证` around concrete prices or zones. Do not dump prices without a plan.
 
 Preserve trading personality. Good daily articles include caution, impatience control, and conditional action: do not chase the middle, wait for confirmation, cut if the key line breaks, hold if the thesis is intact.
 
 Use analogies only when they clarify the market mechanic. Do not force jokes, slogans, or dramatic metaphors. The house style can be vivid, but the trade map must stay in charge.
+
+Size the story to the financial reality. When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly (e.g. "$10M savings vs $120B market cap"). Do not inflate a minor event into a major section.
+
+Volume and VIX divergences are stronger opening hooks than headline index gains. If the market rose on declining volume or VIX rose alongside gains, that is the real lead.
 
 ## Common Failure Modes
 
@@ -50,6 +54,8 @@ Use analogies only when they clarify the market mechanic. Do not force jokes, sl
 - Reporting a level without saying what happens above or below it.
 - Losing the prior-day memory: whether today's move validates, delays, or invalidates yesterday's setup.
 - Over-sanitizing the voice until the article sounds like generic AI research.
+- Inflating a headline-grabbing but financially trivial event into a major section.
+- Padding the article with shallow tickers to hit a length target. Cut a section rather than dilute it.
 
 ## Resources
 

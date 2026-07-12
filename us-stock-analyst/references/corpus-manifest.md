@@ -1,7 +1,7 @@
 # Blog Corpus Manifest
 
 - Source archive: public blog archive
-- Selected daily articles: 46
+- Selected daily articles: 49
 - Excluded/non-daily articles: 12
 
 ## Selected Daily Articles
@@ -52,6 +52,9 @@
 - `archive/2026-07-01-7e332a.md` | 消费股不再避险：美股六月收官的假强势 20260630 | chars=1557 | sections=31
 - `archive/2026-07-02-2690e8.md` | AI花钱模式变了，半导体的信仰裂缝 20260701 | chars=1506 | sections=27
 - `archive/2026-07-06-af178c.md` | 科技股又拉一把，但半导体还没过安全线 20260706 | chars=1106 | sections=5
+- `archive/2026-07-07-c4ea76.md` | 费半先破位，大盘还没一起投降 20260707 | chars=1199 | sections=4
+- `archive/2026-07-08-3d280e.md` | 聪明钱不追AI，大盘开始看防守线 20260708 | chars=1635 | sections=6
+- `archive/2026-07-09-e9fc8b.md` | META模型低价搅局，大盘高位缩量现调整隐忧 20260709 | chars=1364 | sections=5
 
 ## Excluded Reference Articles
 

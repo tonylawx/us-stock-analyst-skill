@@ -27,7 +27,11 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - Breadth and volume qualify index moves.
 - Repeated levels become article structure, not footnotes.
 - If the public materials point to a sector rotation, do not replace it with a generic AI-chain section.
+- When breadth diverges badly from index direction, lead with the breadth story, not the headline index move.
+- When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than inflating the story into a major section.
+- Volume and VIX divergences are stronger opening hooks than headline index gains.
 
 ## Current Known Misses
 
 - 2026-07-07: The draft over-weighted TSLA and generic AI hardware. Public market materials pointed instead to Samsung-driven storage pressure, lower lows in MU/SNDK, SOX 554/582, and IGV's rare software breakout.
+- Article length has been trending longer (2500+ chars) since mid-June. This is appropriate when source material is rich, but avoid padding shallow tickers to hit the length. Cut a section rather than dilute it.

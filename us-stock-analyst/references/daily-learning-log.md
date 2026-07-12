@@ -19,3 +19,21 @@ Append one entry per source day. Keep this file factual and short: what public m
 - Preserve the source day's true main line before adding outside news.
 - Convert repeated public-source levels into explicit article decision points.
 - If a draft misses a source term above, decide whether it was noise or a real omission before updating the style guide.
+
+## 2026-07-08 Daily Learning
+
+- Published article: 聪明钱不追AI，大盘开始看防守线 20260708
+- Source: RhinoFinance video transcript (local Whisper STT)
+- Article tension: Family offices not adding to AI positions while indices held up by weight concentration. Breadth was poor (112 up vs 391 down), XLK/XLB/XLY approaching break points.
+- Key names: SOXX(582/621 levels), COST(same-store growth deceleration), XLK, XLB, XLY
+- Quality note: Good example of tension-driven structure — "smart money not chasing" as the core thesis, with sector ETF decision levels as supporting evidence. Avoided the trap of covering too many individual names.
+- Durable pattern: When breadth diverges badly from index direction, lead with the breadth story, not the headline index move.
+
+## 2026-07-09 Daily Learning
+
+- Published article: META模型低价搅局，大盘高位缩量现调整隐忧 20260709
+- Source: RhinoFinance video transcript (local Whisper STT)
+- Article tension: META's aggressive Llama 3.1 pricing (25% of OpenAI/Anthropic) as a disruptive force, set against shrinking volume + rising VIX divergence.
+- Key names: META(596-611 support, 680 target, 690-730 overhead), SBUX(AI self-build, minimal financial impact on MSFT/IBM), SOXX(582 stabilization, 621 reversal)
+- Quality note: Strong lead — opened with volume/VIX divergence rather than headline index gains. META section successfully combined news catalyst with technical levels. SBUX section correctly sized the financial impact ($10M vs $120B market cap) rather than inflating the story.
+- Durable pattern: When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than treating it as a major story.
