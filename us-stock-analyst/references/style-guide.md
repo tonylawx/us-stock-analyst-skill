@@ -4,6 +4,12 @@
 
 Write a daily Chinese US stock market brief that learns from public market materials while adding better article discipline, clearer hierarchy, and fewer missed main lines.
 
+## Source Mode
+
+- Fresh creator material or a user-provided transcript can define the day's factual hierarchy.
+- An explicit no-update announcement is authoritative. Switch to a news-sourced original article immediately; do not keep polling and do not invent transcript evidence.
+- On news-sourced days, separate the source bundle into tape, macro, earnings, sector structure, and decision levels before drafting.
+
 ## Article Spine
 
 1. Tape read: index direction, breadth, volume, close/tail, overnight follow-through.
@@ -30,8 +36,14 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - When breadth diverges badly from index direction, lead with the breadth story, not the headline index move.
 - When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than inflating the story into a major section.
 - Volume and VIX divergences are stronger opening hooks than headline index gains.
+- Separate growth from cash conversion: revenue, cloud growth, or deliveries do not settle the thesis if CapEx, depreciation, financing needs, or free cash flow deteriorate.
+- A post-earnings selloff after a beat is information. Compare guidance, CapEx, free cash flow, balance-sheet burden, and starting valuation before judging the reaction.
+- When semiconductors, software, and megacap technology fall together, the rotation seesaw has failed. Re-rank macro discount-rate variables such as oil and Treasury yields.
+- For key earnings, build a branching trade map: bullish, neutral, and bearish outcomes, plus the sectors and levels each outcome controls.
 
 ## Current Known Misses
 
 - 2026-07-07: The draft over-weighted TSLA and generic AI hardware. Public market materials pointed instead to Samsung-driven storage pressure, lower lows in MU/SNDK, SOX 554/582, and IGV's rare software breakout.
-- Article length has been trending longer (2500+ chars) since mid-June. This is appropriate when source material is rich, but avoid padding shallow tickers to hit the length. Cut a section rather than dilute it.
+- Article length has been trending longer since mid-June. This is appropriate when source material is rich, but avoid padding shallow tickers to hit the length. Cut a section rather than dilute it.
+- 2026-07-12 and 2026-07-14: Macro stress and AI-debt analysis were useful, but the titles became too long and the opening hierarchy was less compact. Keep one core tension and shorten the title.
+- 2026-07-22 to 2026-07-24: Large operating beats did not protect GOOGL, TSLA, or INTC from valuation pressure. Future earnings sections must explain cash conversion and the market's reaction, not stop at headline beats.

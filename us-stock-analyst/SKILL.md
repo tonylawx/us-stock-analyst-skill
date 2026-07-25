@@ -17,16 +17,19 @@ Before writing or judging a draft, read `references/blog-style-baseline.md` and 
 
 ## Daily Workflow
 
-1. Collect current public market materials or use the public source notes the user gives.
-2. If comparing against an existing draft, run:
+1. Decide the source mode before writing:
+   - If fresh creator material or a user-provided transcript exists, use it as the primary factual hierarchy.
+   - If the creator explicitly announces there will be no update, or no fresh material exists for the target market date, switch immediately to a news-sourced original article. Do not keep polling and do not invent transcript evidence.
+2. Collect current public market materials or use the public source notes the user gives. On news-sourced days, save a compact source bundle that separates market tape, macro variables, earnings facts, and decision levels.
+3. If comparing against an existing draft, run:
    ```bash
    ./scripts/update_daily_learning.py '<source-notes.txt>' --draft '<draft.md>'
    ```
    If there is no draft yet, run it with only the source notes. Treat the log as evidence, not as the final judgment.
-3. Identify the day's true main line before adding secondary news. Prefer the learned hierarchy: market tape, breadth/volume/tail behavior, sector pressure, key names, decision levels, and execution discipline.
-4. Draft the article in Chinese using the active publishing workflow's rules: H1 title with `YYYYMMDD`, H2 sections starting at `0`, ticker symbols bolded, no source-tracing words, and no hand-added footer.
-5. Run the normal downstream workflow for humanizer, rendering, publication handoff, X copy, report, and validation when those tools are available.
-6. After each day, update `references/daily-learning-log.md`. Update `references/style-guide.md` only when the same miss repeats or a new durable pattern appears.
+4. Identify the day's true main line before adding secondary news. Prefer the learned hierarchy: market tape, breadth/volume/tail behavior, sector pressure, key names, decision levels, and execution discipline.
+5. Draft the article in Chinese using the active publishing workflow's rules: H1 title with `YYYYMMDD`, H2 sections starting at `0`, ticker symbols bolded, no source-tracing words, and no hand-added footer.
+6. Run the normal downstream workflow for humanizer, rendering, publication handoff, X copy, report, and validation when those tools are available.
+7. After each day, update `references/daily-learning-log.md`. Update `references/style-guide.md` only when the same miss repeats or a new durable pattern appears.
 
 ## Writing Standard
 
@@ -46,6 +49,14 @@ Size the story to the financial reality. When a company's action has headline im
 
 Volume and VIX divergences are stronger opening hooks than headline index gains. If the market rose on declining volume or VIX rose alongside gains, that is the real lead.
 
+Separate operating growth from cash conversion. A cloud, delivery, or revenue beat is not enough when capital expenditure, depreciation, financing needs, or free cash flow deteriorate. Ask what the growth costs and when the cash returns.
+
+Treat earnings reactions as valuation evidence. When a stock sells off after a beat, compare the guide, CapEx, free cash flow, balance-sheet burden, and starting valuation before calling the reaction irrational.
+
+Recognize regime changes in rotation. If semiconductors, software, and megacap technology stop offsetting one another and fall together, say the seesaw has failed; macro variables such as oil and yields may have become the dominant discount-rate driver.
+
+Use event-driven decision trees. A key earnings report can be the market's switch: define the bullish, neutral, and bearish outcomes, then map which sectors and levels each outcome affects.
+
 ## Common Failure Modes
 
 - Writing a clean market note while missing the day's true market line.
@@ -56,6 +67,9 @@ Volume and VIX divergences are stronger opening hooks than headline index gains.
 - Over-sanitizing the voice until the article sounds like generic AI research.
 - Inflating a headline-grabbing but financially trivial event into a major section.
 - Padding the article with shallow tickers to hit a length target. Cut a section rather than dilute it.
+- Treating an earnings beat as automatically bullish without checking guidance, CapEx, free cash flow, and valuation.
+- Continuing to wait for creator material after an explicit no-update announcement instead of switching cleanly to public-news mode.
+- Writing a news-sourced article as though it came from a transcript or inventing creator-specific evidence.
 
 ## Resources
 

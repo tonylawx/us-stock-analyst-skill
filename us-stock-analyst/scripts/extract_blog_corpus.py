@@ -146,8 +146,11 @@ def first_paragraph(text: str) -> str:
     body = strip_frontmatter(text)
     body = re.sub(r"^# .*\n", "", body, count=1)
     for part in re.split(r"\n\s*\n", body):
-        compact = re.sub(r"\s+", " ", part).strip()
-        if compact.startswith(("---", "publish_time:", "url:", "author:", "date:", "![", "##", "#")):
+        lines = [line.strip() for line in part.splitlines() if line.strip()]
+        while lines and lines[0].startswith("#"):
+            lines.pop(0)
+        compact = re.sub(r"\s+", " ", " ".join(lines)).strip()
+        if compact.startswith(("---", "publish_time:", "url:", "author:", "date:", "![")):
             continue
         if compact == "美股 · 期权 · 资讯 · 观点":
             continue

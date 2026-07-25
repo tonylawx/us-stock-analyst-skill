@@ -4,11 +4,11 @@ This file is generated from public archived Chinese blog posts. Use it as a base
 
 ## Corpus Stats
 
-- Daily articles: 49
-- Average Chinese characters: 1313
-- Average section/paragraph count: 23
-- Top tickers: MSFT(59), NVDA(51), IGV(44), SOXX(44), SMH(33), META(31), TSLA(29), AMZN(29), AMD(28), QQQ(21), MU(21), MRVL(19), AVGO(18), GOOG(16), ISRG(12), IBM(11), GOOGL(11), ORCL(9), SPY(8), NFLX(7), GPU(7), HBM(7), AAPL(7), PE(7)
-- Recurring trading terms: 风险(212), 支撑(135), 突破(119), 跌破(116), 压力(115), 观察(111), 区间(97), 仓位(81), 回撤(70), 前瞻(44), 放量(42), 买盘(38), 资本支出(23), 抛压(19), 验证(18), 流动性(15), 货币化(15), 缩量(14), 站稳(9), 止损(8), 止盈(5), 高增长(2)
+- Daily articles: 56
+- Average Chinese characters: 1347
+- Average section/paragraph count: 21
+- Top tickers: MSFT(65), SOXX(59), NVDA(56), IGV(44), META(40), SMH(37), TSLA(37), GOOG(37), AMZN(36), AMD(28), QQQ(25), MU(23), MRVL(19), ORCL(18), AVGO(18), ISRG(15), GOOGL(14), IBM(12), INTC(11), SPY(11), GPU(8), AAPL(8), PE(8), NOW(7)
+- Recurring trading terms: 风险(236), 支撑(152), 压力(132), 突破(129), 跌破(128), 观察(113), 区间(109), 仓位(95), 回撤(82), 资本支出(64), 前瞻(55), 放量(43), 买盘(39), 验证(25), 货币化(24), 抛压(19), 流动性(19), 缩量(16), 止损(11), 站稳(10), 高增长(6), 止盈(5)
 
 ## Observed Article Shape
 
@@ -16,51 +16,12 @@ This file is generated from public archived Chinese blog posts. Use it as a base
 - Turn news into a trade structure: what changed, which prior level is being tested, and what confirms or invalidates it.
 - Anchor claims in concrete levels: support, pressure, break, reclaim, gap, volume, and positioning.
 - Keep one core tension per article. Secondary names should support that tension, not become a ticker tour.
+- Separate operating growth from cash conversion. CapEx, depreciation, financing burden, and free cash flow can matter more than a headline beat.
+- Treat the post-earnings price reaction as evidence about valuation and expectations.
+- When semiconductors, software, and megacap technology stop offsetting one another, identify the rotation regime change.
 - End with execution discipline: what to wait for, what not to chase, and where the plan is wrong.
 
 ## Representative Openings
-
-### 四大科技是凉透还是到站？AI 产业链的命根子，押注明年初见分晓 20260622
-
-先把最根本的逻辑钉死：**GOOG**、**AMZN**、**MSFT**、**META** 这四家掌握着超大规模数据中心，是 AI 产业链上真正的采购甲方。他们现在恰恰是"花钱的那一方"——AI 确实给他们带来收益，但还远不足以覆盖投入成本，自由现金流在持续转负。
-
-Source: `archive/2026-06-23-c58d3f.md`
-
-### 纳指暴跌 3% 为何说杀伤不够？三股抛压洪流压境，美光期权押注史无前例
-
-先给结论压住情绪：今天标普和纳指都正好守在了非常关键的位置，没有破位；费城半导体离破位还有点距离。今天看上去不少个股跌得狠，但对上行趋势没有造成实质性破坏——除非市场再来一次今天这种幅度的下跌（纳指再跌三个多点、费半再跌八个点），才会真正形成回撤趋势。
-
-Source: `archive/2026-06-24-807f87.md`
-
-### 美光点火，但科技股还没脱险 20260624
-
-昨晚美股表面上没有大跌，但结构并不好看。标普收在 7358.22，跌 0.1%；纳指收在 25476.64，跌 0.4%；道指涨 0.4%，罗素 2000 也涨 0.4%。这组数字放在一起，说明问题不是市场全面失血，而是权重科技股继续拖后腿。
-
-Source: `archive/2026-06-25-19ae89.md`
-
-### 四巨头挨打，AI 账单开始反噬 20260625
-
-今天最容易误判的地方，是把科技股的冲高回落看成全面撤退。纳指盘中从接近 2% 的涨幅一路回落，低点甚至翻绿，最后还能收涨，说明多空都没有彻底赢。标普内部上涨家数明显多过下跌家数，等权重指数也在上涨，这不是典型的系统性杀跌，更像资金在从拥挤的方向撤一点出来，重新找性价比。
-
-Source: `archive/2026-06-26-3e17d9.md`
-
-### 半导体掉血软件回暖，SPY离破位只差两块钱 20260626
-
-周五四大指数分化，标普500与道指几乎持平、罗素微涨，纳指独跌1%，但标普成分股广度连续两天走好，324只上涨、178只下跌，11个板块里8个本周收涨。更值得注意的是，标普等权指数本周上涨0.55%，而**SPX** 本周下跌1.95%，说明指数仍被少数半导体和存储股绑架，但市场广度正悄然扩大，存在均值回归的迹象。
-
-Source: `archive/2026-06-27-5e9ddd.md`
-
-### 反弹很热闹，方向还没出来 20260629
-
-六月最后几个交易日，美股最容易把人绕晕。四大指数分化，纳指领涨，罗素独跌，费城半导体指数收复了上一个交易日的全部跌幅。盘中先跳水，再快速拉回，像是先凹进去，又硬生生凸出来。表面很强，底层还是月末再平衡、季末调仓、下半年仓位重排一起制造的酱油行情。
-
-Source: `archive/2026-06-30-773470.md`
-
-### 消费股不再避险：美股六月收官的假强势 20260630
-
-指数收涨，账户未必赚钱
-
-Source: `archive/2026-07-01-7e332a.md`
 
 ### AI花钱模式变了，半导体的信仰裂缝 20260701
 
@@ -88,6 +49,48 @@ Source: `archive/2026-07-08-3d280e.md`
 
 ### META模型低价搅局，大盘高位缩量现调整隐忧 20260709
 
-美股这一晚表面上集体走高，四大指数集体收涨，纳指领涨。但成交量全部都在萎缩，恐慌指数 **VIX** 也在市场上涨中逆势小幅上行。这绝非强烈的上涨信号。目前的行情缺乏之前的FOMO状态，充斥着日内反复的博弈。
+美股这一晚表面上集体走高，四大指数集体收涨，纳指领涨。但成交量全部都在萎缩，恐慌指数 **VIX** 也在市场上涨中逆势小幅上行。这绝非强烈的上涨信号。目前的行情缺乏之前的 FOMO 状态，充斥着日内反复的博弈。
 
 Source: `archive/2026-07-09-e9fc8b.md`
+
+### 从韩国股市暴跌看AI资本支出的终极博弈 2026货币化验证生死年 20260712
+
+周一，全球金融市场遭遇多重宏观层面的利空冲击。美股四大指数集体走低，纳指 100 收跌 1.88%，半导体板块整体大跌近 5%，30 只成分股全部收跌。
+
+Source: `archive/2026-07-12-5b778d.md`
+
+### 从韩国散户爆仓惨剧看大科技AI资本支出的债务生死线与半导体分化出清 20260714
+
+本周以来，全球金融市场遭遇宏观重压，地缘局势和加息预期同时压制大科技与半导体。布伦特原油重新站上 80 美元，风险资产开始重新计算通胀和融资成本。
+
+Source: `archive/2026-07-14-a36dd9.md`
+
+### 谷歌财报定跷跷板，半导体和软件先选一边 20260720
+
+周一四大指数高开低走，成交量明显萎缩。**SPX** 成分股中有 337 只下跌，只有 165 只上涨，平静的指数下面其实是一片分化。上周五早盘能长时间横住，主要是正 Gamma 环境压住了波动；尾盘相关期权结算后，向下空间才被释放。
+
+Source: `archive/2026-07-20-eaf9dc.md`
+
+### 半导体反弹很猛，但谷歌才是真正开关 20260721
+
+四大指数今天全部收涨，纳指和半导体反弹最明显，费城半导体 30 只成分股全部上涨。表面看，市场像是重新找回了风险偏好，但拆开之后，还是那套熟悉的跷跷板。
+
+Source: `archive/2026-07-21-05d9a7.md`
+
+### 谷歌云暴涨82%，但2027年资本支出仍是悬案 20260722
+
+7 月 22 日四大指数小幅下挫，标普成分股涨跌各半。费城半导体整体成交量大幅萎缩，ETF 层面同样清淡——盘中无人恋战，所有目光都盯着盘后财报。
+
+Source: `archive/2026-07-22-a8f11d.md`
+
+### 油价突破百元与加息风险升温，大科技与半导体罕见共振下跌 20260723
+
+美股市场整体情绪低迷，四大指数全天承压。市场打破了此前大科技与半导体交替支撑的跷跷板格局，出现共振下跌。当板块轮动对冲失效，避险情绪明显升温。
+
+Source: `archive/2026-07-23-813a6c.md`
+
+### AI还在增长，科技股却先被现金流卡住 20260724
+
+周五美股没有继续全面下杀。道指上涨，标普接近平盘，纳指小幅走弱。表面上，情绪有所稳定；但科技内部的压力没有消失。芯片股继续承压，资金仍在紧盯大型科技公司的资本支出和现金流。
+
+Source: `archive/2026-07-24-b64939.md`
