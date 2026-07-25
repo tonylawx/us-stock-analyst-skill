@@ -1,7 +1,7 @@
 # Blog Corpus Manifest
 
 - Source archive: public blog archive
-- Selected daily articles: 49
+- Selected daily articles: 56
 - Excluded/non-daily articles: 12
 
 ## Selected Daily Articles
@@ -55,6 +55,13 @@
 - `archive/2026-07-07-c4ea76.md` | 费半先破位，大盘还没一起投降 20260707 | chars=1199 | sections=4
 - `archive/2026-07-08-3d280e.md` | 聪明钱不追AI，大盘开始看防守线 20260708 | chars=1635 | sections=6
 - `archive/2026-07-09-e9fc8b.md` | META模型低价搅局，大盘高位缩量现调整隐忧 20260709 | chars=1364 | sections=5
+- `archive/2026-07-12-5b778d.md` | 从韩国股市暴跌看AI资本支出的终极博弈 2026货币化验证生死年 20260712 | chars=1997 | sections=4
+- `archive/2026-07-14-a36dd9.md` | 从韩国散户爆仓惨剧看大科技AI资本支出的债务生死线与半导体分化出清 20260714 | chars=1230 | sections=5
+- `archive/2026-07-20-eaf9dc.md` | 谷歌财报定跷跷板，半导体和软件先选一边 20260720 | chars=1576 | sections=6
+- `archive/2026-07-21-05d9a7.md` | 半导体反弹很猛，但谷歌才是真正开关 20260721 | chars=1551 | sections=6
+- `archive/2026-07-22-a8f11d.md` | 谷歌云暴涨82%，但2027年资本支出仍是悬案 20260722 | chars=1561 | sections=5
+- `archive/2026-07-23-813a6c.md` | 油价突破百元与加息风险升温，大科技与半导体罕见共振下跌 20260723 | chars=1474 | sections=4
+- `archive/2026-07-24-b64939.md` | AI还在增长，科技股却先被现金流卡住 20260724 | chars=1711 | sections=6
 
 ## Excluded Reference Articles
 

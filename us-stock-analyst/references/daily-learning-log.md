@@ -37,3 +37,61 @@ Append one entry per source day. Keep this file factual and short: what public m
 - Key names: META(596-611 support, 680 target, 690-730 overhead), SBUX(AI self-build, minimal financial impact on MSFT/IBM), SOXX(582 stabilization, 621 reversal)
 - Quality note: Strong lead — opened with volume/VIX divergence rather than headline index gains. META section successfully combined news catalyst with technical levels. SBUX section correctly sized the financial impact ($10M vs $120B market cap) rather than inflating the story.
 - Durable pattern: When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than treating it as a major story.
+
+## 2026-07-12 Daily Learning
+
+- Published article: 从韩国股市暴跌看AI资本支出的终极博弈 2026货币化验证生死年 20260712
+- Article tension: A macro deleveraging shock was used to stress-test the AI capital-expenditure cycle and the industry's ability to monetize heavy investment.
+- Key structure: oil and rate pressure -> forced deleveraging -> AI debt and depreciation burden -> semiconductor defense lines.
+- Quality note: The causal chain was ambitious and useful, but the title and opening carried too many themes at once.
+- Durable pattern: Use an external market shock only when it clarifies the US trade map. Keep one core tension and shorten the title.
+
+## 2026-07-14 Daily Learning
+
+- Published article: 从韩国散户爆仓惨剧看大科技AI资本支出的债务生死线与半导体分化出清 20260714
+- Article tension: AI infrastructure spending was reframed as a balance-sheet and free-cash-flow problem rather than a pure growth story.
+- Key structure: macro tightening -> leverage stress -> debt-funded CapEx -> 2026 monetization test -> semiconductor differentiation.
+- Quality note: Strong long-cycle framing, but the article needed a tighter opening hierarchy and a less overloaded title.
+- Durable pattern: When CapEx is debt-funded, connect depreciation, financing cost, and free cash flow before discussing valuation.
+
+## 2026-07-20 Daily Learning
+
+- Published article: 谷歌财报定跷跷板，半导体和软件先选一边 20260720
+- Article tension: GOOGL earnings acted as the switch between semiconductors and software while weak breadth made the index less informative.
+- Key names: GOOGL, QQQ, TSLA, TXN, ISRG
+- Quality note: Good use of a branching event map and explicit portfolio rotation. The event mattered because it controlled sector outcomes and technical levels.
+- Durable pattern: For a key earnings report, define bullish, neutral, and bearish branches instead of predicting one result.
+
+## 2026-07-21 Daily Learning
+
+- Published article: 半导体反弹很猛，但谷歌才是真正开关 20260721
+- Article tension: A broad semiconductor rebound met heavy overhead supply while GOOGL CapEx remained the real catalyst.
+- Key names: SOXX, GOOGL, ORCL
+- Quality note: Historical post-drawdown statistics supported the bounce case, but the article kept execution anchored to the 550-584 resistance zone.
+- Durable pattern: Historical averages can support a setup, but they never replace the current invalidation level.
+
+## 2026-07-22 Daily Learning
+
+- Published article: 谷歌云暴涨82%，但2027年资本支出仍是悬案 20260722
+- Article tension: Strong cloud growth did not resolve the market's concern about the next CapEx cycle and cash returns.
+- Key names: GOOGL, TXN, IBM, NOW, TSLA
+- Quality note: The strongest section separated operating performance from the cost of sustaining that performance.
+- Durable pattern: A large growth number is not the conclusion. Ask what it costs, how it affects free cash flow, and whether the valuation already assumes it.
+
+## 2026-07-23 Daily Learning
+
+- Published article: 油价突破百元与加息风险升温，大科技与半导体罕见共振下跌 20260723
+- Article tension: The usual technology-sector seesaw failed as megacap and semiconductors declined together under oil, yield, and rate pressure.
+- Key structure: oil shock -> inflation repricing -> higher yields -> discount-rate pressure -> synchronized technology weakness.
+- Quality note: The article correctly promoted macro variables only after they changed sector behavior.
+- Durable pattern: When the rotation hedge fails, say the regime changed and re-rank the dominant macro driver.
+
+## 2026-07-24 Daily Learning
+
+- Published article: AI还在增长，科技股却先被现金流卡住 20260724
+- Source mode: News-sourced original after an explicit creator no-update announcement.
+- Article tension: GOOGL, TSLA, and INTC showed that revenue growth, deliveries, or an earnings beat no longer protect valuation when CapEx and free-cash-flow concerns remain unresolved.
+- Key names: GOOGL, TSLA, INTC, SOXX
+- Quality note: Strong cross-company synthesis. The article did not treat each earnings report as a separate recap; every name served the cash-conversion thesis.
+- Durable pattern: Treat the post-earnings price reaction as evidence. A beat can still be bearish when guidance, CapEx, cash conversion, or starting valuation disappoints.
+- Source-mode rule: An explicit no-update announcement is authoritative. Switch to public-news mode immediately and never fabricate transcript evidence.
