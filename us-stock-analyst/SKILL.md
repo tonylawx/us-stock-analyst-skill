@@ -48,6 +48,8 @@ Use `references/corpus-manifest.md` only when exact historical article paths or 
 
 Start with the tape, not the headline. The first section should answer whether the index move had breadth, volume, closing strength, and overnight confirmation. When breadth diverges from the index direction, lead with breadth.
 
+Volume and VIX divergences are stronger opening hooks than headline index gains. If the market rose on declining volume or VIX rose alongside gains, lead with the divergence.
+
 Keep one core tension. Secondary tickers must explain that tension rather than become a ticker tour.
 
 Turn news into a trading structure. A catalyst matters only after it changes a level, trend, rotation, valuation story, cash-flow path, or risk trigger.
@@ -59,6 +61,8 @@ Size the story to the financial reality. Quantify the gap when an action has hea
 Separate operating growth from cash conversion. Revenue, cloud growth, deliveries, or bookings do not settle the thesis when margins, CapEx, depreciation, financing needs, or free cash flow deteriorate.
 
 Treat the post-earnings reaction as valuation evidence. Compare guidance, consensus, capital intensity, cash conversion, balance-sheet burden, and starting valuation before calling a selloff irrational.
+
+Recognize regime changes in rotation. If semiconductors, software, and megacap technology stop offsetting one another and fall together, re-rank macro variables such as oil and Treasury yields as possible dominant discount-rate drivers.
 
 Use event-driven decision trees for major earnings or macro switches. Define bullish, neutral, and bearish outcomes, then map the affected sectors, confirmation levels, invalidation points, and observation horizon.
 
