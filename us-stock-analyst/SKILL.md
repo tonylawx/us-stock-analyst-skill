@@ -1,52 +1,45 @@
 ---
 name: us-stock-analyst
-description: Use when writing, revising, or auditing Tony-style Chinese US stock daily briefs from current market materials, creator notes, transcripts, earnings, price action, or historical blog patterns.
+description: Use when writing, revising, or auditing Chinese US stock daily briefs from current market materials, transcripts, earnings, price action, or historical public market-writing patterns.
 ---
 
 # US Stock Analyst
 
-Use this skill to turn the day's market structure into a sharper Chinese US stock brief. Preserve Tony's trading voice, but make every material conclusion earn its place through evidence, mechanism, and an executable trade map.
+Use this skill to turn the day's market structure into a sharper Chinese US stock brief. Make every material conclusion earn its place through evidence, mechanism, and an executable trade map.
 
 ## Required References
 
 Before writing or judging a draft, read:
 
 - `references/blog-style-baseline.md` for the learned public writing baseline.
-- `references/style-guide.md` for durable Tony-style rules.
-- `references/daily-learning-log.md` for recent misses and adaptations.
+- `references/style-guide.md` for durable writing rules.
 - `references/research-standard.md` for evidence, accounting, attribution, and scenario discipline.
 
 Use `references/corpus-manifest.md` only when exact historical article paths or representative examples are needed.
 
 ## Source Boundaries
 
-- Use historical blog articles as the style baseline, not as current market evidence.
+- Use historical public articles as the style baseline, not as current market evidence.
 - Use current public market materials, public source notes, or user-provided notes as factual input.
-- Keep private workflow paths, unpublished notes, credentials, and operational rules out of this public skill.
-- Do not turn a news headline, creator opinion, or market coincidence into a verified fact.
+- Keep private workflow paths, unpublished notes, credentials, personal portfolios, account details, and operational rules out of this public skill.
+- Do not turn a news headline, source opinion, or market coincidence into a verified fact.
 
 ## Daily Workflow
 
 1. Decide the source mode before writing:
-   - If fresh creator material or a user-provided transcript exists, use it as the primary factual hierarchy.
-   - If the creator explicitly announces no update, or no fresh material exists for the target market date, switch immediately to a news-sourced original article. Do not keep polling and do not invent transcript evidence.
+   - If fresh source material or a user-provided transcript exists, use it as the primary factual hierarchy.
+   - If no fresh source material exists for the target market date, switch immediately to a news-sourced original article. Do not invent transcript evidence.
 2. Lock the research frame: target market date, information cutoff, relevant benchmark, and—when financial statements matter—period, currency, units, and accounting basis.
 3. Build a compact source bundle. Separate market tape, macro variables, earnings facts, sector structure, and decision levels. Distinguish primary facts, company statements, estimates, reporting, and interpretation.
-4. If comparing against an existing draft, run:
-   ```bash
-   ./scripts/update_daily_learning.py '<source-notes.txt>' --draft '<draft.md>'
-   ```
-   If no draft exists, run it with only the source notes. Treat the log as evidence, not as the final judgment.
-5. Identify the day's true main line before adding secondary news. Prefer the learned hierarchy: tape, breadth/volume/tail behavior, sector pressure, key names, decision levels, and execution discipline.
-6. Build material claims in this order: **Conclusion → Evidence → Mechanism → Trading implication**. State price-attribution confidence as high, medium, or low when explaining why an asset moved.
-7. Draft in Chinese using the active publishing workflow's rules: H1 title with `YYYYMMDD`, H2 sections starting at `0`, ticker symbols bolded, no source-tracing words, and no hand-added footer.
-8. Run the light research gate in `references/research-standard.md`. Fix unsupported causality, mixed accounting bases, missing units, weak scenario logic, and ticker-tour padding before publishing.
-9. Run the normal downstream workflow for humanizer, rendering, publication handoff, X copy, reporting, and validation when those tools are available.
-10. After each day, update `references/daily-learning-log.md`. Update `references/style-guide.md` only when the same miss repeats or a durable new pattern appears.
+4. Identify the day's true main line before adding secondary news. Prefer the hierarchy: tape, breadth/volume/tail behavior, sector pressure, key names, decision levels, and execution discipline.
+5. Build material claims in this order: **Conclusion → Evidence → Mechanism → Trading implication**. State price-attribution confidence as high, medium, or low when explaining why an asset moved.
+6. Draft in Chinese using the active publishing workflow's rules when provided. Keep ticker formatting, heading structure, metadata, and downstream publication conventions separate from the analytical core.
+7. Run the light research gate in `references/research-standard.md`. Fix unsupported causality, mixed accounting bases, missing units, weak scenario logic, and ticker-tour padding before publishing.
+8. When downstream publication, rendering, social-copy, or validation tools exist, use them only after the analytical draft passes the research gate.
 
 ## Writing Standard
 
-Start with the tape, not the headline. The first section should answer whether the index move had breadth, volume, closing strength, and overnight confirmation. When breadth diverges from the index direction, lead with breadth.
+Start with the tape, not the headline. The first section should answer whether the index move had breadth, volume, closing strength, and overnight confirmation. When breadth diverges from index direction, lead with breadth.
 
 Volume and VIX divergences are stronger opening hooks than headline index gains. If the market rose on declining volume or VIX rose alongside gains, lead with the divergence.
 
@@ -66,9 +59,22 @@ Recognize regime changes in rotation. If semiconductors, software, and megacap t
 
 Use event-driven decision trees for major earnings or macro switches. Define bullish, neutral, and bearish outcomes, then map the affected sectors, confirmation levels, invalidation points, and observation horizon.
 
-Preserve trading personality. Use caution, impatience control, and conditional action. Do not chase the middle; wait for confirmation; change the view when the key line or thesis breaks.
+Preserve a disciplined trader voice. Use caution, impatience control, and conditional action. Do not chase the middle; wait for confirmation; change the view when the key line or thesis breaks.
 
 Use analogies only when they clarify market mechanics. The trade map stays in charge.
+
+## Privacy and Portability Rules
+
+This public skill must remain user-agnostic and portable.
+
+Do not include:
+- a person's name, handle, employer, location, medical history, immigration history, or personal biography
+- brokerage names or account-specific workflow unless universally required by the skill
+- personal portfolio size, holdings, cost basis, realized/unrealized P&L, debt, repayment goals, or risk budget
+- private source names, unpublished creators, private transcripts, local filesystem paths, private repositories, credentials, tokens, IDs, or messaging workflows
+- first-person historical trade records that can identify the original author
+
+When a useful rule was learned from a private or personal case, keep only the generalized analytical rule. Remove the identifying example.
 
 ## Common Failure Modes
 
@@ -79,18 +85,16 @@ Use analogies only when they clarify market mechanics. The trade map stays in ch
 - Reporting a level without saying what happens above or below it.
 - Adding a standalone ticker or macro section only because the news is interesting.
 - Covering too many names with shallow comments instead of drilling into thesis drivers.
-- Losing prior-day memory: whether today's move validates, delays, or invalidates yesterday's setup.
+- Losing prior-day context: whether today's move validates, delays, or invalidates the previous setup.
 - Over-sanitizing the voice until the article sounds like generic AI research.
-- Continuing to wait after an explicit no-update announcement.
 - Writing a news-sourced article as though it came from a transcript.
+- Leaking personal, account-specific, or private-source context into a public reusable skill.
 
 ## Resources
 
-- `references/blog-style-baseline.md`: generated style baseline from historical daily articles.
-- `references/corpus-manifest.md`: generated list of selected and excluded blog articles.
-- `references/style-guide.md`: human-maintained durable writing rules.
-- `references/daily-learning-log.md`: append-only daily learning notes.
+- `references/blog-style-baseline.md`: public style baseline from selected historical market articles.
+- `references/corpus-manifest.md`: generated list of selected and excluded public articles.
+- `references/style-guide.md`: durable writing rules.
 - `references/research-standard.md`: evidence, earnings, attribution, scenario, and quality-gate rules.
-- `scripts/extract_blog_corpus.py`: refresh the historical corpus from a blog archive.
-- `scripts/update_daily_learning.py`: append a daily source-note/draft comparison entry.
+- `scripts/extract_blog_corpus.py`: refresh the historical corpus from a public blog archive.
 - `scripts/validate_research_standard.py`: validate the research-methodology contract.
