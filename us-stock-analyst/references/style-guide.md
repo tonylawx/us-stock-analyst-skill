@@ -6,8 +6,8 @@ Write a daily Chinese US stock market brief that learns from public market mater
 
 ## Source Mode
 
-- Fresh creator material or a user-provided transcript can define the day's factual hierarchy.
-- An explicit no-update announcement is authoritative. Switch to a news-sourced original article immediately; do not keep polling and do not invent transcript evidence.
+- Fresh public source material or a user-provided transcript can define the day's factual hierarchy.
+- If no fresh source material exists for the target market date, switch to a news-sourced original article and do not invent transcript evidence.
 - On news-sourced days, separate the source bundle into tape, macro, earnings, sector structure, and decision levels before drafting.
 
 ## Article Spine
@@ -21,29 +21,31 @@ Write a daily Chinese US stock market brief that learns from public market mater
 
 ## Voice
 
-- Prefer direct trader language: `这根阳线不能看太满`, `买盘有，但不够勇敢`, `不是答案，是考题`.
-- Use first person only for real stance or position context.
-- Keep the article self-contained. Do not mention the research process, source notes, or authors in the body.
-- Preserve concrete analogies when they explain a mechanism, but do not add decorative metaphors.
+- Prefer direct trader language and compact judgment.
+- Use first person only when the user explicitly provides a real stance or position context for the current task.
+- Keep the article self-contained. Do not mention research process, source notes, private authors, or private workflow details in the body.
+- Preserve analogies only when they explain a market mechanism; avoid decorative metaphors.
 
 ## Priority Rules
 
-- The latest public source notes outrank secondary news.
+- Current public evidence outranks historical style examples.
 - Price action outranks story.
 - Breadth and volume qualify index moves.
 - Repeated levels become article structure, not footnotes.
-- If the public materials point to a sector rotation, do not replace it with a generic AI-chain section.
-- When breadth diverges badly from index direction, lead with the breadth story, not the headline index move.
-- When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than inflating the story into a major section.
+- If the evidence points to sector rotation, do not replace it with a generic AI-chain section.
+- When breadth diverges badly from index direction, lead with breadth, not the headline index move.
+- When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than inflating it into a major section.
 - Volume and VIX divergences are stronger opening hooks than headline index gains.
-- Separate growth from cash conversion: revenue, cloud growth, or deliveries do not settle the thesis if CapEx, depreciation, financing needs, or free cash flow deteriorate.
+- Separate growth from cash conversion: revenue, cloud growth, deliveries, or bookings do not settle the thesis if CapEx, depreciation, financing needs, or free cash flow deteriorate.
 - A post-earnings selloff after a beat is information. Compare guidance, CapEx, free cash flow, balance-sheet burden, and starting valuation before judging the reaction.
-- When semiconductors, software, and megacap technology fall together, the rotation seesaw has failed. Re-rank macro discount-rate variables such as oil and Treasury yields.
+- When semiconductors, software, and megacap technology fall together, the rotation hedge has failed. Re-rank macro discount-rate variables such as oil and Treasury yields.
 - For key earnings, build a branching trade map: bullish, neutral, and bearish outcomes, plus the sectors and levels each outcome controls.
 
-## Current Known Misses
+## Durable Lessons
 
-- 2026-07-07: The draft over-weighted TSLA and generic AI hardware. Public market materials pointed instead to Samsung-driven storage pressure, lower lows in MU/SNDK, SOX 554/582, and IGV's rare software breakout.
-- Article length has been trending longer since mid-June. This is appropriate when source material is rich, but avoid padding shallow tickers to hit the length. Cut a section rather than dilute it.
-- 2026-07-12 and 2026-07-14: Macro stress and AI-debt analysis were useful, but the titles became too long and the opening hierarchy was less compact. Keep one core tension and shorten the title.
-- 2026-07-22 to 2026-07-24: Large operating beats did not protect GOOGL, TSLA, or INTC from valuation pressure. Future earnings sections must explain cash conversion and the market's reaction, not stop at headline beats.
+- If a draft overweights a high-profile ticker while the sector evidence points elsewhere, re-rank the article around the sector evidence.
+- Rich source material may justify a longer article, but never pad shallow tickers to hit length. Cut a section rather than dilute it.
+- Macro stress and long-cycle AI financing analysis can become too broad. Keep one core tension and keep titles compact.
+- Large operating beats do not settle the thesis when valuation, CapEx, financing, or cash conversion remain under pressure.
+- Historical averages can support a setup, but never replace the current confirmation or invalidation level.
+- Generalize lessons from historical cases. Do not retain identifying source names, dates, personal anecdotes, or private portfolio context in this public guide.
