@@ -34,12 +34,17 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - Repeated levels become article structure, not footnotes.
 - If the evidence points to sector rotation, do not replace it with a generic AI-chain section.
 - When breadth diverges badly from index direction, lead with breadth, not the headline index move.
+- Before calling a move systemic, compare sector damage with index breadth, equal-weight behavior, VIX, and benchmark support.
 - When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than inflating it into a major section.
 - Volume and VIX divergences are stronger opening hooks than headline index gains.
-- Separate growth from cash conversion: revenue, cloud growth, deliveries, or bookings do not settle the thesis if CapEx, depreciation, financing needs, or free cash flow deteriorate.
+- Separate growth from cash conversion: revenue, cloud growth, deliveries, or bookings do not settle the thesis if CapEx, depreciation, financing needs, guarantees, or free cash flow deteriorate.
 - A post-earnings selloff after a beat is information. Compare guidance, CapEx, free cash flow, balance-sheet burden, and starting valuation before judging the reaction.
+- For high-multiple stocks, require a multi-factor read: growth, margins, guidance, valuation, and cash conversion.
+- Supplier/customer financing changes the quality of demand. Distinguish organic demand from financing-supported demand and account for credit or contingent-liability risk.
 - When semiconductors, software, and megacap technology fall together, the rotation hedge has failed. Re-rank macro discount-rate variables such as oil and Treasury yields.
 - For key earnings, build a branching trade map: bullish, neutral, and bearish outcomes, plus the sectors and levels each outcome controls.
+- For unlocks and float increases, potential supply is not the same as realized selling. Confirm with actual volume, price absorption, and follow-through.
+- For capital-intensive themes, track the slope of spending growth, not just the absolute level. A sudden deceleration can matter more than a still-high CapEx number.
 
 ## Durable Lessons
 
@@ -48,4 +53,8 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - Macro stress and long-cycle AI financing analysis can become too broad. Keep one core tension and keep titles compact.
 - Large operating beats do not settle the thesis when valuation, CapEx, financing, or cash conversion remain under pressure.
 - Historical averages can support a setup, but never replace the current confirmation or invalidation level.
+- A bearish thesis and a good short entry are different questions. Near major support, deteriorating downside/upside asymmetry can make chasing the short unattractive even if the group remains weak.
+- Oversold is not a reversal signal by itself; overbought is not a sell signal by itself. Let price structure and volume decide whether momentum extremes matter.
+- A cheaper valuation is not the same as a repaired chart. Do not turn multiple compression into an automatic buy call before price stabilizes.
+- When stock-level action is mostly industry-driven, let the sector ETF or group resistance control conviction.
 - Generalize lessons from historical cases. Do not retain identifying source names, dates, personal anecdotes, or private portfolio context in this public guide.
