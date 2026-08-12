@@ -1,25 +1,12 @@
 # US Stock Analyst Skill
 
-Codex skill for writing and iteratively improving evidence-led, Tony-style Chinese US stock daily analysis. It supports both fresh creator-material days and news-sourced original days when no fresh update exists.
+Codex skill for writing and iteratively improving evidence-led Chinese US stock daily analysis. It supports both fresh-source days and news-sourced original days when no fresh update exists.
 
 The skill lives in `us-stock-analyst/`.
 
-## Daily Update
-
-```bash
-cd us-stock-analyst
-./scripts/extract_blog_corpus.py --blog '<blog-archive-root>'
-./scripts/update_daily_learning.py '<source-notes.txt>' --draft '<draft.md>'
-```
-
-Source-mode rule:
-
-- Use fresh creator material or a user-provided transcript when available.
-- If the creator explicitly announces no update, or no fresh material exists, switch immediately to public-news mode and do not invent transcript evidence.
-
 ## Research Discipline
 
-The durable research rules live in `references/research-standard.md`. They add:
+The durable research rules live in `references/research-standard.md`. They cover:
 
 - source hierarchy and fact/estimate/interpretation separation
 - `Conclusion → Evidence → Mechanism → Trading implication`
@@ -28,11 +15,15 @@ The durable research rules live in `references/research-standard.md`. They add:
 - bullish/neutral/bearish event scenarios
 - a light pre-publish research gate
 
-Validate the contract with:
+## Privacy
+
+This repository is intended to remain reusable and user-agnostic. Do not add personal biography, account-specific portfolio details, private source names, local filesystem paths, credentials, private workflow identifiers, or other identifying context. When a useful rule comes from a private case, keep only the generalized analytical rule.
+
+## Validation
 
 ```bash
-python3 scripts/validate_research_standard.py --self-test
-python3 scripts/validate_research_standard.py
+python3 us-stock-analyst/scripts/validate_research_standard.py --self-test
+python3 us-stock-analyst/scripts/validate_research_standard.py
 ```
 
 ## License
