@@ -1,4 +1,4 @@
 interface:
   display_name: "US Stock Analyst"
-  short_description: "Write evidence-led Tony-style US stock briefs"
-  default_prompt: "Use $us-stock-analyst to choose the correct source mode, identify today's true market line, build material claims from evidence and mechanism, and turn current public market materials into a Tony-style trade map."
+  short_description: "Write evidence-led Chinese US stock briefs"
+  default_prompt: "Use $us-stock-analyst to choose the correct source mode, identify today's true market line, build material claims from evidence and mechanism, and turn current market materials into a disciplined trade map."
