@@ -45,6 +45,9 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - For key earnings, build a branching trade map: bullish, neutral, and bearish outcomes, plus the sectors and levels each outcome controls.
 - For unlocks and float increases, potential supply is not the same as realized selling. Confirm with actual volume, price absorption, and follow-through.
 - For capital-intensive themes, track the slope of spending growth, not just the absolute level. A sudden deceleration can matter more than a still-high CapEx number.
+- In hyperscaler vs compute supplier dynamics, hyperscalers (cash-rich megacap tech) have balance-sheet durability and can pivot to defense by moderating CapEx, whereas hardware/semiconductor suppliers face operating leverage risks when vendor-supported credit or financing cycles slow.
+- When institutional desks or hedge funds turn tactically "neutral" into seasonal weak windows (e.g. September), treat "neutral" not as indecision, but as a deliberate de-risking and long-trimming signal.
+- In systematic flow analysis, tie CTA threshold levels and gamma zones directly to price-invalidation boundaries rather than abstract sentiment.
 
 ## Durable Lessons
 
@@ -57,4 +60,6 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - Oversold is not a reversal signal by itself; overbought is not a sell signal by itself. Let price structure and volume decide whether momentum extremes matter.
 - A cheaper valuation is not the same as a repaired chart. Do not turn multiple compression into an automatic buy call before price stabilizes.
 - When stock-level action is mostly industry-driven, let the sector ETF or group resistance control conviction.
+- Always distinguish between prior resistance becoming a durable support floor ("压力变支撑/地板") versus short-lived sentiment spikes that fail at key overhead resistance.
+- End complex rotational or catalyst days with an explicit 3-scenario branch (偏多 / 中性 / 偏空) detailing trigger levels, invalidation points, and observation windows.
 - Generalize lessons from historical cases. Do not retain identifying source names, dates, personal anecdotes, or private portfolio context in this public guide.

@@ -1,68 +1,93 @@
 # Blog Style Baseline
 
-This file is generated from public archived Chinese market articles. Use it as a baseline, then refine it from current public market materials.
+This file is generated from public archived Chinese blog posts. Use it as a baseline, then refine it from public market materials.
 
 ## Corpus Stats
 
-- Daily market articles learned: 63
-- Coverage now includes the late-July through August 11 market cycle in addition to the earlier archive
-- Personal essays, memoirs, account-specific trade history, private-source notes, and non-market AI/software articles are excluded
+- Daily articles: 84
+- Average Chinese characters: 1429
+- Average section/paragraph count: 16
+- Top tickers: NVDA(114), MSFT(99), SOXX(91), META(67), IGV(66), AMZN(62), GOOG(58), TSLA(45), AMD(43), SMH(39), QQQ(39), MU(35), CRM(30), MRVL(28), AVGO(26), ORCL(25), SPX(19), PLTR(18), ISRG(17), NOW(17), INTU(17), SPY(17), CRWD(17), GOOGL(16)
+- Recurring trading terms: 风险(294), 突破(239), 支撑(223), 压力(205), 跌破(180), 仓位(144), 区间(136), 观察(136), 前瞻(121), 回撤(117), 资本支出(82), 放量(75), 买盘(58), 货币化(40), 缩量(35), 抛压(31), 验证(28), 站稳(26), 流动性(25), 止损(23), 高增长(21), 止盈(8)
 
 ## Observed Article Shape
 
-- Start with the tape: index move, breadth, volume, volatility, close/tail behavior, and whether headline strength or weakness is broad-based.
-- Distinguish **systemic risk** from **sector-local correction** before escalating the tone. A sharp semiconductor selloff with healthy breadth elsewhere is not the same as a market-wide risk-off break.
-- Turn news into a trade structure: what changed, which prior level is being tested, what confirms the move, and what invalidates it.
-- Anchor claims in concrete levels: support, resistance, break/reclaim, gap, moving averages, volume, positioning, and programmatic-flow triggers.
-- Keep one core tension per article. Secondary names should explain that tension rather than become a ticker tour.
-- Use **risk/reward**, not emotion, to judge whether a directional trade is still attractive. A thesis can remain bearish while a new short becomes unattractive near support.
-- Separate operating growth from cash conversion. CapEx, depreciation, financing burden, guarantees, debt issuance, and free cash flow can matter more than a headline revenue beat.
-- Treat supplier financing, guarantees, customer credit support, and circular financing as possible balance-sheet and demand-quality risks, not merely as order acceleration.
-- Treat post-earnings price action as valuation evidence. For high-multiple companies, growth alone is insufficient; revenue, margins, guidance, capital intensity, and cash conversion must be judged together.
-- Distinguish **valuation getting cheaper** from **price trend actually stabilizing**. A lower multiple does not by itself create a buy signal.
-- Distinguish **oversold** from **automatic reversal**. Oversold conditions can improve risk/reward, but confirmation still comes from price and volume.
-- Treat overbought readings as warnings rather than automatic sell signals when trend structure remains intact.
-- Use sector ETFs or key bellwethers as gating signals for individual names when stock moves are highly industry-dependent.
-- Recognize rotation regime changes. If semiconductors, software, and megacap technology stop offsetting one another, re-rank oil, yields, liquidity, and other discount-rate drivers.
-- For unlocks, secondary offerings, or float changes, separate the existence of potential supply from observed selling pressure. Watch actual volume, absorption, and price stability.
-- For capital-intensive themes, monitor not only the level of spending but the **slope of acceleration/deceleration**. A controlled slowdown can be digestible; a rapid spending retreat can signal a regime change.
-- End with execution discipline: what to wait for, what not to chase, where the trade becomes asymmetric, and where the thesis is wrong.
+- Start with the tape: index move, breadth, volume, tail/overnight behavior, and whether headline strength is real.
+- Turn news into a trade structure: what changed, which prior level is being tested, and what confirms or invalidates it.
+- Anchor claims in concrete levels: support, pressure, break, reclaim, gap, volume, and positioning.
+- Keep one core tension per article. Secondary names should support that tension, not become a ticker tour.
+- End with execution discipline: what to wait for, what not to chase, and where the plan is wrong.
 
-## Newly Learned Patterns from the Latest Market Cycle
+## Representative Openings
 
-### 1. Sector-local stress vs systemic stress
+### 财政部回购翻倍，MRVL抢走博通一单 20260819
 
-Do not infer a market-wide breakdown from one crowded group. Compare index breadth, equal-weight behavior, defensive/cyclical rotation, volatility, and whether major benchmarks lose their own support.
+美东8月19日周三，继续放量，纳指独跌。费城半导体26只成分股下跌、只有4只上涨。标普其实不差：288涨214跌，11个板块里7个上涨，等权指数涨逾1%。医疗保健大涨3.51%，打出新高。指数看起来像科技在拖后腿，成分股内部其实在轮：多数板块有买盘，弱的是费半这一条线。微软等大科技波动不大，先不必展开。
 
-### 2. Risk/reward can override directional conviction
+Source: `archive/2026-08-19-be6c11.md`
 
-A bearish view does not justify chasing shorts into major support. Compare realistic downside to rebound risk before recommending continuation trades.
+### WMT前瞻砸盘，债务95天再添一万亿 20260820
 
-### 3. Demand quality matters
+美东8月20日周四，四大指数集体下跌。道指在**WMT**拖累下领跌1.32%，标普跌0.87%，纳指跌1.00%。标普158涨341跌，11个板块只有2个上涨。等权指数把周三的涨幅全部吐回去，两天走了一个来回。费城半导体没有延续周三的26跌4涨，反而成了当天相对最强的子板块。这个星期走来走去，指数像在原地踏步。
 
-When suppliers finance customers, guarantee leases, support customer credit, or help fund purchases of their own products, separate:
-- reported demand growth
-- financing-supported demand
-- customer credit quality
-- contingent liabilities / reputation risk
-- eventual cash realization
+Source: `archive/2026-08-20-b29516.md`
 
-### 4. High-multiple earnings need a multi-factor pass
+### 机构现金见底，AVGO把CDS顶到纪录 20260821
 
-For expensive growth stocks, a clean quarter usually needs several dimensions to cooperate: revenue growth, margins, forward guidance, capital intensity, and cash conversion. A miss in one dimension can trigger multiple compression even when headline growth remains strong.
+美东8月21日周五，市场普涨。道指涨0.98%，收53277；标普涨0.43%，收7674；纳指涨0.43%。道指和罗素领涨。标普334涨167跌，等权指数涨0.63%。11个板块和周四正好反过来，只有两个下跌。费城半导体又走反向，成了当天最差的子板块。这个星期半导体和软件的关联已经不那么紧，更像在和非半导体的大盘悄悄对打。
 
-### 5. Supply events require observed-flow confirmation
+Source: `archive/2026-08-21-a0e74e.md`
 
-Lockup expiry, secondary supply, or unlock eligibility is potential supply, not guaranteed selling. Use actual turnover, price absorption, and follow-through to determine whether supply is becoming a real catalyst.
+### 费半全灭等NVDA，对冲基金净仓一年新低 20260824
 
-### 6. AI capex risk is about the deceleration path
+美东8月24日周一，指数是裂开的。道指涨0.26%，收53417；标普跌0.28%，收7653；纳指跌0.76%，收25980。罗素也跌约0.8%。标普成分股305涨195跌，11个板块里8个上涨。多数个股并不弱，弱的是芯片。
 
-The key question is no longer simply whether AI/data-center spending grows. Track whether capex growth is accelerating, plateauing, or decelerating, and whether monetization catches up before financing costs and depreciation overwhelm free cash flow.
+Source: `archive/2026-08-24-17ef30.md`
 
-### 7. Sector confirmation can control stock-level conviction
+### DKS砸三成拖鞋服，INTU盘后掉十个点 20260825
 
-When a stock lacks an independent catalyst, use the relevant sector ETF or group resistance as the primary confirmation signal. Avoid forcing stock-specific conviction before the industry confirms.
+美东8月25日周二，国债收益率和原油一起回落，四大指数收涨。道指涨0.30%，收53577；标普涨0.32%，收7677；纳指涨0.66%，收26151。费城半导体也跟上，**SOX**涨1.44%，收11588。30只成分股24涨6跌。**NVDA**从208.48弹到213.05，涨2.19%；**AMD**涨4.91%，收479。
 
-## Privacy Rule
+Source: `archive/2026-08-25-defa86.md`
 
-This baseline stores only generalized public market-writing patterns. Do not add private identities, personal portfolio details, account history, private source names, or identifying anecdotes.
+### NVDA营收破96，现金只回来四成 20260826
+
+美东8月26日周三，盘面先把位置让给两件事：早上PCE，晚上**NVDA**。道指跌0.21%，收53464；标普几乎平盘，收7676；纳指跌0.06%，收26136。**SOXX**收515.40，只涨0.26%。周二刚靠收益率和油价回落把芯片抬起来，周三就把那点涨幅吐回去。指数没有先定价，是在等。
+
+Source: `archive/2026-08-26-0946a2.md`
+
+### NVDA苦新高已久，CRM盘后涨十二个点 20260826
+
+美东8月26日周三，盘中几乎没有波澜。道指跌0.21%，收53464；标普几乎平盘，收7676；纳指跌0.06%，收26136。现金盘把位置让给晚上的财报。**NVDA**白天先把位置腾出来，盘后才定价。**CRM**和网络安全那边也是收盘之后才动。
+
+Source: `archive/2026-08-26-0d9533.md`
+
+### NVDA涨九个点，236还没过去 20260827
+
+美东8月27日周四，现金盘把星期三晚上的财报结了账。道指涨0.2%，收53569；标普涨0.7%，收7731；纳指涨1.6%，收26541。**SOX**涨2.33%，收11882。**SOXX**收525.43，涨1.95%。
+
+Source: `archive/2026-08-27-20453e.md`
+
+### IGV突破看117，CRM还卡277 20260827
+
+美东8月27日周四，四大指数收绿，纳指领涨。道指涨0.2%，收53569；标普涨0.7%，收7731；纳指涨1.6%，收26541。**NVDA**现金收227.98，涨8.74%。**SOX**收11882，涨2.33%，25只成分股跟着走。软件这边，**CRM**涨22.58%，**CRWD**涨大约两成，把板块从底下拽上来。
+
+Source: `archive/2026-08-27-38e57a.md`
+
+### IGV先突破，277还没过去 20260827
+
+美东8月27日周四，四大指数收绿，纳指领涨。道指涨0.2%，收53569；标普涨0.7%，收7731；纳指涨1.6%，收26541。**NVDA**现金收227.98，涨8.74%。**SOX**收11882，涨2.33%，25只成分股跟着走。软件这边，**CRM**涨22.58%，**CRWD**涨大约两成，把板块从底下拽上来。
+
+Source: `archive/2026-08-27-b4e41d.md`
+
+### 费半全灭，循环融资先踩刹车 20260828
+
+美东8月28日周五，四大指数回撤，罗素和纳指领跌。道指几乎平盘，跌0.02%，收53560；标普跌0.25%，收7712；纳指跌0.52%，收26402。**IWM**跌1.35%，收295.75。标普大约230只上涨、272只下跌，11个板块5涨6跌。涨跌家数大约四比六。指数没有崩，投票已经偏空。
+
+Source: `archive/2026-08-28-87d7c6.md`
+
+### 摩根大通战术转中性，九月决战防守线 20260831
+
+地缘冲突推升油价与通胀预期，10年期美债收益率突破7月高点并创下2025年1月以来新高，美股大盘全线承压。标普500成分股361只下跌、仅137只上涨，11个板块中仅科技与能源飘红，**NDX** 尾盘勉强拉升翻红。摩根大通专为机构服务的市场情报部门在8月底正式将战术观点从看涨下调至中性。该团队过去两年在市场拐点判断上极少失手，中性评级实际就是明确的降仓防守信号。
+
+Source: `archive/2026-08-31-24b6d9.md`
