@@ -7,7 +7,7 @@ Write a daily Chinese US stock market brief that learns from public market mater
 ## Source Mode
 
 - Fresh public source material or a user-provided transcript can define the day's factual hierarchy.
-- If no fresh source material exists for the target market date, switch to a news-sourced original article and do not invent transcript evidence.
+- If no fresh source material exists for the target market date, write a news-sourced original article in the learned daily voice. Do not invent transcript evidence, and do not write about the missing episode.
 - On news-sourced days, separate the source bundle into tape, macro, earnings, sector structure, and decision levels before drafting.
 
 ## Article Spine
@@ -61,5 +61,7 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - A cheaper valuation is not the same as a repaired chart. Do not turn multiple compression into an automatic buy call before price stabilizes.
 - When stock-level action is mostly industry-driven, let the sector ETF or group resistance control conviction.
 - Always distinguish between prior resistance becoming a durable support floor ("压力变支撑/地板") versus short-lived sentiment spikes that fail at key overhead resistance.
-- End complex rotational or catalyst days with an explicit 3-scenario branch (偏多 / 中性 / 偏空) detailing trigger levels, invalidation points, and observation windows.
+- Do not close the daily note with a formulaic three-path section. Put the level and the action in the ticker or sector paragraph. A scenario tree can stay in working notes when an event needs one.
+- A down index on shrinking volume is not a new regime when breadth is still healthy. Judge the tape by advancers, the equal-weight index, and whether a key level broke.
+- When one sector pays for another's gain, lead with that split. Do not call the weak sector's candle a market break.
 - Generalize lessons from historical cases. Do not retain identifying source names, dates, personal anecdotes, or private portfolio context in this public guide.

@@ -1,7 +1,7 @@
 # Blog Corpus Manifest
 
 - Source archive: public blog archive
-- Selected daily articles: 84
+- Selected daily articles: 112
 - Excluded/non-daily articles: 13
 
 ## Selected Daily Articles
@@ -90,6 +90,34 @@
 - `archive/2026-08-27-b4e41d.md` | IGV先突破，277还没过去 20260827 | chars=1760 | sections=5
 - `archive/2026-08-28-87d7c6.md` | 费半全灭，循环融资先踩刹车 20260828 | chars=1846 | sections=4
 - `archive/2026-08-31-24b6d9.md` | 摩根大通战术转中性，九月决战防守线 20260831 | chars=1074 | sections=4
+- `archive/2026-09-01-49a789.md` | 罗素决战百日线，四大指数重设防守 20260901 | chars=1728 | sections=4
+- `archive/2026-09-02-a520eb.md` | 英伟达万亿喊单，褐皮书证实AI已无退路 20260902 | chars=2784 | sections=6
+- `archive/2026-09-03-327f89.md` | 特斯拉放量突破强弱区间，微软改组财报亮出AI底牌 20260903 | chars=2364 | sections=6
+- `archive/2026-09-04-d2b9b1.md` | OpenAI催化半导体反扑，费半突破仍待确认 20260904 | chars=2316 | sections=4
+- `archive/2026-09-08-329905.md` | 半导体再强一天，对冲基金仍按兵不动 20260908 | chars=2396 | sections=5
+- `archive/2026-09-09-cc6b90.md` | 回购救不了十年债，Meta 放量还没突破 20260909 | chars=1869 | sections=5
+- `archive/2026-09-10-6b57f7.md` | 十年债逼近5%，软件先破位 20260910 | chars=1854 | sections=5
+- `archive/2026-09-11-072bb3.md` | 加息快坐实，指数靠油价回落 20260911 | chars=1971 | sections=5
+- `archive/2026-09-11-92abda.md` | 利息支出飙了，费半再卡线 20260911 | chars=1731 | sections=5
+- `archive/2026-09-14-5af96e.md` | 费半全线收跌，AI放缓不是摔杯 20260914 | chars=1925 | sections=5
+- `archive/2026-09-15-0e2794.md` | 十年期站上5%，费半先把486看住 20260915 | chars=1585 | sections=5
+- `archive/2026-09-16-6995e8.md` | 十年期先熄火，网络安全把利润看住 20260916 | chars=1846 | sections=5
+- `archive/2026-09-17-6fc88d.md` | 半导体容错极小，AMD 领着冲前高 20260917 | chars=1957 | sections=4
+- `archive/2026-09-18-569161.md` | 芯片冲出箱体，指数还是没方向 20260918 | chars=1348 | sections=4
+- `archive/2026-09-21-636103.md` | META 过 730，CPU 比 GPU 更急 20260921 | chars=1477 | sections=4
+- `archive/2026-09-22-0e78f1.md` | 纳指新高，别把 AMZN 跟歪 20260922 | chars=1565 | sections=6
+- `archive/2026-09-23-3e5a09.md` | 十年债冲上 5.1%，罗素先砸 20260923 | chars=2049 | sections=6
+- `archive/2026-09-24-0e34f8.md` | META 冲到 778，指数只是看起来稳 20260924 | chars=1522 | sections=6
+- `archive/2026-09-25-2e0f0d.md` | 微软放量过 514，META 先歇脚 20260925 | chars=1461 | sections=6
+- `archive/2026-09-28-4d1111.md` | 回购托住英伟达，纳指期货多头挤满了 20260928 | chars=1977 | sections=8
+- `archive/2026-09-29-93c5c0.md` | 摩根大通转战术看涨，十年期仍收在 5.26% 20260929 | chars=2412 | sections=8
+- `archive/2026-09-30-799237.md` | 美光强财报之后，第四季度先守好风险边界 20260930 | chars=1628 | sections=6
+- `archive/2026-10-01-8e0498.md` | 半导体突破之后，先看确认，再看现金 20261001 | chars=2067 | sections=6
+- `archive/2026-10-02-9e7017.md` | 非农只增 2.9 万，QQQ 照样收在新高 20261002 | chars=1722 | sections=7
+- `archive/2026-10-05-cd36c9.md` | 标普和谁都不同步了，对冲基金不加仓只等抬轿 20261005 | chars=2102 | sections=7
+- `archive/2026-10-06-7bd6c0.md` | 十家公司扛走三季度68%盈利增长，行情要看剩下的中位数 20261006 | chars=2380 | sections=6
+- `archive/2026-10-07-3a22c4.md` | 缩量下跌先别当风险，SPCX 又在为芯片借钱 20261007 | chars=2139 | sections=7
+- `archive/2026-10-08-0c9f1e.md` | 不是崩，是科技在还债 20261008 | chars=1673 | sections=7
 
 ## Excluded Reference Articles
 
