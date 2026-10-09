@@ -1,6 +1,6 @@
 # US Stock Analyst Skill
 
-Codex skill for writing and iteratively improving evidence-led Chinese US stock daily analysis. It supports both fresh-source days and news-sourced original days when no fresh update exists.
+Codex skill that learns a published daily US-stock voice from the article corpus, then writes that day's note in the learned voice when no fresh episode or transcript exists. A fresh episode still leads. The missing episode is not the subject.
 
 The skill lives in `us-stock-analyst/`.
 
