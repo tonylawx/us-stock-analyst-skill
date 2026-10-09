@@ -5,7 +5,7 @@ description: Use when writing, revising, or auditing Chinese US stock daily brie
 
 # US Stock Analyst
 
-Use this skill to turn the day's market structure into a sharper Chinese US stock brief. Make every material conclusion earn its place through evidence, mechanism, and an executable trade map.
+Use this skill to turn the day's market structure into a sharper Chinese US stock brief. It learns that voice from the public article corpus. When no fresh episode or transcript exists, write the day's note in the learned voice from current public facts. Do not write about the missing episode. Make every material conclusion earn its place through evidence, mechanism, and an executable trade map.
 
 ## Required References
 
