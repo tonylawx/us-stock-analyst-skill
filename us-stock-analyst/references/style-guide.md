@@ -62,6 +62,7 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - When stock-level action is mostly industry-driven, let the sector ETF or group resistance control conviction.
 - Always distinguish between prior resistance becoming a durable support floor ("压力变支撑/地板") versus short-lived sentiment spikes that fail at key overhead resistance.
 - Do not close the daily note with a formulaic three-path section. Put the level and the action in the ticker or sector paragraph. A scenario tree can stay in working notes when an event needs one.
+- Write the trading implication as the next sentence in the same paragraph. Do not label it 交易含义, "trade:", or a separate closer.
 - A down index on shrinking volume is not a new regime when breadth is still healthy. Judge the tape by advancers, the equal-weight index, and whether a key level broke.
 - When one sector pays for another's gain, lead with that split. Do not call the weak sector's candle a market break.
 - Generalize lessons from historical cases. Do not retain identifying source names, dates, personal anecdotes, or private portfolio context in this public guide.
