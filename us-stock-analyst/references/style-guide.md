@@ -2,29 +2,47 @@
 
 ## Objective
 
-Write a daily Chinese US stock market brief that learns from public market materials while adding better article discipline, clearer hierarchy, and fewer missed main lines.
+Write a daily Chinese US stock market brief that learns from public market materials while adding rigorous article discipline, deeper micro-accounting, clearer hierarchy, and industrial-grade analytical richness.
+
+---
 
 ## Source Mode
 
 - Fresh public source material or a user-provided transcript can define the day's factual hierarchy.
-- If no fresh source material exists for the target market date, write a news-sourced original article in the learned daily voice. Do not invent transcript evidence, and do not write about the missing episode.
-- On news-sourced days, separate the source bundle into tape, macro, earnings, sector structure, and decision levels before drafting.
+- If no fresh source material exists for the target market date, switch to a news-sourced original article and do not invent transcript evidence.
+- On news-sourced days, strictly adhere to the **Half-Tree Principle**: anchor around exactly one dominant macro/liquidity tension, and avoid assembling fragmented news collages.
 
-## Article Spine
+---
 
-1. Tape read: index direction, breadth, volume, close/tail, overnight follow-through.
-2. True catalyst: the source event that actually changed market behavior.
-3. Sector structure: which group is leading, lagging, rotating, or breaking.
-4. Key names: only the names that explain the sector structure.
-5. Decision levels: support, pressure, break/reclaim, and what each outcome means.
-6. Execution: what not to chase, what to wait for, and where to change view.
+## Article Spine & Progression
 
-## Voice
+1. **Tape read**: index direction, breadth, volume, close/tail, overnight follow-through.
+2. **True catalyst**: the source event that actually changed market behavior and asset pricing.
+3. **Sector structure**: which group is leading, lagging, rotating, or breaking under the dominant tension.
+4. **Key names & Micro-Ledgers**: only the names that explain the sector structure, accompanied by concrete unit economics and cash flow conversion.
+5. **Decision levels**: support, pressure, break/reclaim, and what each outcome means.
+6. **Execution**: what not to chase, what to wait for, where to change view, and invalidation points.
+
+### Five-Phase Narrative Arc per Section
+Each substantive `##` section advances through five structured phases:
+- *Phase 1*: Objective tape/event facts with verifiable numbers, dates, and sources.
+- *Phase 2*: Micro-ledger calculation (unit costs, FCF conversion, CapEx payback, SBC dilution).
+- *Phase 3*: Conflict and incentive breakdown (upstream vs downstream, option gamma vs institutional flow).
+- *Phase 4*: Historical mirror and physical/institutional deadlocks.
+- *Phase 5*: Concrete decision pivots (`站稳`, `跌破`, `防守`).
+
+---
+
+## Voice & Narrative Engineering
 
 - Prefer direct trader language and compact judgment.
 - Use first person only when the user explicitly provides a real stance or position context for the current task.
 - Keep the article self-contained. Do not mention research process, source notes, private authors, or private workflow details in the body.
+- Never assume readers read past issues or expose author correction notes (严禁出现“上期把...设为观察线”、“上期写下的...应收回”等内部自纠元叙述).
 - Preserve analogies only when they explain a market mechanism; avoid decorative metaphors.
+- **Road Transition Curves**: Ensure smooth paragraph-to-paragraph transitions with connective logic bridges; eliminate jarring topical jumps.
+
+---
 
 ## Priority Rules
 
@@ -37,7 +55,8 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - Before calling a move systemic, compare sector damage with index breadth, equal-weight behavior, VIX, and benchmark support.
 - When a company's action has headline impact but trivial financial magnitude, quantify the disparity explicitly rather than inflating it into a major section.
 - Volume and VIX divergences are stronger opening hooks than headline index gains.
-- Separate growth from cash conversion: revenue, cloud growth, deliveries, or bookings do not settle the thesis if CapEx, depreciation, financing needs, guarantees, or free cash flow deteriorate.
+- **Separate growth from cash conversion**: revenue, cloud growth, deliveries, or bookings do not settle the thesis if CapEx, depreciation, financing needs, guarantees, or free cash flow deteriorate.
+- **Two-Turn Cognitive Hook**: Reject superficial one-layer reporting. Move from consensus expectation $\to$ ledger reversal $\to$ systemic/physical deadlock.
 - A post-earnings selloff after a beat is information. Compare guidance, CapEx, free cash flow, balance-sheet burden, and starting valuation before judging the reaction.
 - For high-multiple stocks, require a multi-factor read: growth, margins, guidance, valuation, and cash conversion.
 - Supplier/customer financing changes the quality of demand. Distinguish organic demand from financing-supported demand and account for credit or contingent-liability risk.
@@ -49,10 +68,20 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - When institutional desks or hedge funds turn tactically "neutral" into seasonal weak windows (e.g. September), treat "neutral" not as indecision, but as a deliberate de-risking and long-trimming signal.
 - In systematic flow analysis, tie CTA threshold levels and gamma zones directly to price-invalidation boundaries rather than abstract sentiment.
 
+---
+
+## Title & Heading Hard Rules
+
+- **Strictly No Colons**: Main H1 title and all H2 subheadings must not contain colons (`:` or `：`). Use natural, engaging phrasing.
+- **Strictly No Retail Broker Software Attribution**: Prohibit retail brokerage labels (长桥, 富途, 老虎证券, 雪盈证券). Attribute market quotes to official exchanges or Bloomberg/Reuters terminals.
+- **Arabic Numerals in Metrics**: Always use Arabic numerals (`5%`, `7580点`, `50基点`) rather than spelled-out Chinese numerals in titles and metrics.
+
+---
+
 ## Durable Lessons
 
 - If a draft overweights a high-profile ticker while the sector evidence points elsewhere, re-rank the article around the sector evidence.
-- Rich source material may justify a longer article, but never pad shallow tickers to hit length. Cut a section rather than dilute it.
+- Rich source material justifies a longer, denser article (2400~3800 characters, 3–5 substantive paragraphs per section); never pad shallow tickers to hit length. Cut a section rather than dilute it.
 - Macro stress and long-cycle AI financing analysis can become too broad. Keep one core tension and keep titles compact.
 - Large operating beats do not settle the thesis when valuation, CapEx, financing, or cash conversion remain under pressure.
 - Historical averages can support a setup, but never replace the current confirmation or invalidation level.
@@ -65,4 +94,5 @@ Write a daily Chinese US stock market brief that learns from public market mater
 - Write the trading implication as the next sentence in the same paragraph. Do not label it 交易含义, "trade:", or a separate closer.
 - A down index on shrinking volume is not a new regime when breadth is still healthy. Judge the tape by advancers, the equal-weight index, and whether a key level broke.
 - When one sector pays for another's gain, lead with that split. Do not call the weak sector's candle a market break.
+- End complex rotational or catalyst days with explicit risk management and invalidation points, avoiding mechanical formulaic branching in reader-facing prose.
 - Generalize lessons from historical cases. Do not retain identifying source names, dates, personal anecdotes, or private portfolio context in this public guide.
