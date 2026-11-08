@@ -6,7 +6,7 @@ The skill lives in `us-stock-analyst/`.
 
 ## Research & Content Engineering Discipline
 
-Rooted in institutional equity research discipline and **Industrial Content Engineering Methodology (工业工程化内容方法论)**:
+Rooted in institutional equity research discipline and **Industrial Content Engineering Methodology**:
 
 - **Source hierarchy**: strict separation of primary facts, company statements, consensus estimates, reporting, and interpretation.
 - **Five-phase section progression**: advancing substantive sections through *Tape Facts $\to$ Micro-Ledger Penetration $\to$ Conflict & Incentive Mapping $\to$ Historical Analogies $\to$ Decision Pivots*.

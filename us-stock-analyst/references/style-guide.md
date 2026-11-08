@@ -29,7 +29,7 @@ Each substantive `##` section advances through five structured phases:
 - *Phase 2*: Micro-ledger calculation (unit costs, FCF conversion, CapEx payback, SBC dilution).
 - *Phase 3*: Conflict and incentive breakdown (upstream vs downstream, option gamma vs institutional flow).
 - *Phase 4*: Historical mirror and physical/institutional deadlocks.
-- *Phase 5*: Concrete decision pivots (`站稳`, `跌破`, `防守`).
+- *Phase 5*: Concrete decision pivots (confirmation, breakdown, defense, invalidation).
 
 ---
 
@@ -38,7 +38,7 @@ Each substantive `##` section advances through five structured phases:
 - Prefer direct trader language and compact judgment.
 - Use first person only when the user explicitly provides a real stance or position context for the current task.
 - Keep the article self-contained. Do not mention research process, source notes, private authors, or private workflow details in the body.
-- Never assume readers read past issues or expose author correction notes (严禁出现“上期把...设为观察线”、“上期写下的...应收回”等内部自纠元叙述).
+- Never assume readers read past issues or expose author correction notes (strictly prohibit internal self-correcting meta-commentary such as "in our last issue we marked..." or "retracting last issue's level").
 - Preserve analogies only when they explain a market mechanism; avoid decorative metaphors.
 - **Road Transition Curves**: Ensure smooth paragraph-to-paragraph transitions with connective logic bridges; eliminate jarring topical jumps.
 
@@ -73,8 +73,8 @@ Each substantive `##` section advances through five structured phases:
 ## Title & Heading Hard Rules
 
 - **Strictly No Colons**: Main H1 title and all H2 subheadings must not contain colons (`:` or `：`). Use natural, engaging phrasing.
-- **Strictly No Retail Broker Software Attribution**: Prohibit retail brokerage labels (长桥, 富途, 老虎证券, 雪盈证券). Attribute market quotes to official exchanges or Bloomberg/Reuters terminals.
-- **Arabic Numerals in Metrics**: Always use Arabic numerals (`5%`, `7580点`, `50基点`) rather than spelled-out Chinese numerals in titles and metrics.
+- **Strictly No Retail Broker Software Attribution**: Prohibit retail brokerage labels (e.g., Longbridge, Futu, Tiger Brokers, Snowball). Attribute market quotes to official exchanges or Bloomberg/Reuters terminals.
+- **Arabic Numerals in Metrics**: Always use Arabic numerals (`5%`, `7580 points`, `50 bps`) rather than spelled-out Chinese numerals in titles and metrics.
 
 ---
 
@@ -89,9 +89,9 @@ Each substantive `##` section advances through five structured phases:
 - Oversold is not a reversal signal by itself; overbought is not a sell signal by itself. Let price structure and volume decide whether momentum extremes matter.
 - A cheaper valuation is not the same as a repaired chart. Do not turn multiple compression into an automatic buy call before price stabilizes.
 - When stock-level action is mostly industry-driven, let the sector ETF or group resistance control conviction.
-- Always distinguish between prior resistance becoming a durable support floor ("压力变支撑/地板") versus short-lived sentiment spikes that fail at key overhead resistance.
+- Always distinguish between prior resistance becoming a durable support floor versus short-lived sentiment spikes that fail at key overhead resistance.
 - Do not close the daily note with a formulaic three-path section. Put the level and the action in the ticker or sector paragraph. A scenario tree can stay in working notes when an event needs one.
-- Write the trading implication as the next sentence in the same paragraph. Do not label it 交易含义, "trade:", or a separate closer.
+- Write the trading implication as the next sentence in the same paragraph. Do not label it "trading implication", "trade:", or a separate closer.
 - A down index on shrinking volume is not a new regime when breadth is still healthy. Judge the tape by advancers, the equal-weight index, and whether a key level broke.
 - When one sector pays for another's gain, lead with that split. Do not call the weak sector's candle a market break.
 - End complex rotational or catalyst days with explicit risk management and invalidation points, avoiding mechanical formulaic branching in reader-facing prose.

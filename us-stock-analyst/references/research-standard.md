@@ -42,20 +42,20 @@ Example shape:
 
 Do not use causal language such as “because,” “driven by,” or “the market is pricing” when the evidence only shows timing or correlation.
 
-### Five-Phase Section Progression (小节微观推进五部曲)
+### Five-Phase Section Progression
 
 While a single Claim Chain governs individual substantive paragraphs, an entire `##` section must progress through a five-phase narrative arc to ensure richness and depth:
 
-1. **Phase 1: Tape & Catalyst Fact (盘面异动与事件事实)**
+1. **Phase 1: Tape & Catalyst Fact**
    - Open with concrete market data: opening gap, volume ratio, price levels, headline event, and explicit dates/sources.
-2. **Phase 2: Micro-Ledger Penetration (穿透微观财务与业务账本)**
+2. **Phase 2: Micro-Ledger Penetration**
    - Penetrate beyond headline metrics: calculate free cash flow conversion, SBC dilution, CapEx burden, and unit economics.
-3. **Phase 3: Structural Incentive & Conflict Mapping (各方利益博弈与微观结构)**
+3. **Phase 3: Structural Incentive & Conflict Mapping**
    - Dissect conflicting incentives: upstream high margins vs downstream compression; call option Gamma unwind vs institutional de-risking.
-4. **Phase 4: Historical Mirror & Deep Deadlock (打通历史与底层死锁)**
-   - Benchmark against historical analogies (e.g. 1999 telecom dark fiber, 1995 preventive rate cut curve steepening).
-5. **Phase 5: Decision Boundaries & Execution Game Plan (分水岭与交易决断)**
-   - Establish crisp execution rules around actionable levels (`站稳`, `跌破`, `防守`, `失效`).
+4. **Phase 4: Historical Mirror & Deep Deadlock**
+   - Benchmark against historical analogies (e.g., 1999 telecom dark fiber, 1995 preventive rate cut curve steepening).
+5. **Phase 5: Decision Boundaries & Execution Game Plan**
+   - Establish crisp execution rules around actionable levels (breakout confirmation, breakdown, defense, invalidation).
 
 ---
 
@@ -74,16 +74,16 @@ When earnings or guidance matter, check the full bridge rather than stopping at 
 
 A beat is not automatically bullish. The market may be reacting to guidance, capital intensity, cash conversion, funding risk, or the valuation implied before the print.
 
-### Sector Micro-Accounting Toolkits (分板块微观账本工具箱)
+### Sector Micro-Accounting Toolkits
 
-1. **AI Hardware & Semiconductors (AI 硬件与半导体)**:
+1. **AI Hardware & Semiconductors**:
    - Calculate unit economics: chip ASP ($\$30\text{k}\sim\$40\text{k}$) $\to$ server rack CDU liquid cooling and power delivery capex $\to$ 3-year linear depreciation $\to$ industrial power cost (cents/kWh) $\to$ compute rental break-even hourly rate ($\$/\text{hr}$).
    - Interconnection queues and transformer delivery cycles (36–48 months) represent physical constraints that outrank pure silicon throughput.
-2. **Cloud & Enterprise SaaS (云计算与企业级软件)**:
+2. **Cloud & Enterprise SaaS**:
    - Verify ARR growth against Net Retention Rate (NRR).
    - Evaluate customer acquisition payback period (CAC Payback Months) and the Rule of 40 (Growth Rate + FCF Margin).
    - Distinguish organic revenue acceleration from vendor-financed or bundled promotional contracts.
-3. **Capital-Intensive Manufacturing & EV (先进制造与新能源车)**:
+3. **Capital-Intensive Manufacturing & EV**:
    - Scrutinize vehicle/unit gross margins excluding regulatory credits.
    - Contrast factory tooling amortization against unencumbered operating cash flow.
    - Track balance-sheet runway (cash + equivalents relative to quarterly net burn rate).
@@ -102,9 +102,9 @@ Assign confidence to each causal claim:
 
 Match language to confidence:
 
-- High: `主要由……推动`, `证据较强`
-- Medium: `更可能与……有关`, `市场反应与……一致`
-- Low: `可能受到……影响`, `暂时不能确认单一原因`
+- High: Strong corroboration ("primarily driven by...", "direct causal attribution")
+- Medium: Plausible evidence ("more likely associated with...", "market reaction consistent with...")
+- Low: Speculative or coincident headline ("possibly influenced by...", "single cause cannot be confirmed")
 
 Do not force percentages onto attribution unless a reproducible model supports them.
 
@@ -129,24 +129,24 @@ Keep the scenario tree in working notes when it helps organize the analysis. Do 
 
 ---
 
-## Two-Turn Cognitive Hook (二次转折认知阶梯)
+## Two-Turn Cognitive Hook
 
 To eliminate pedestrian news reporting, every substantive market breakdown should execute a **Two-Turn Cognitive Hook**:
 
-1. **Layer 0: Consensus Narrative (大众直觉预期 A)**
-   - The superficial headline reading (e.g. "Mega-cap stock beats top/bottom line and jumps 5% in post-market").
-2. **Turn 1: Ledger & Micro-Structure Reversal (第一层转折：翻开账本反转为真相 B)**
+1. **Layer 0: Consensus Narrative (Expectation A)**
+   - The superficial headline reading (e.g., "Mega-cap stock beats top/bottom line and jumps 5% in post-market").
+2. **Turn 1: Ledger & Micro-Structure Reversal (Reality B)**
    - Disclose the underlying divergence: operating cash flow contracted, gross margins declined, or the pop was an option Gamma short-covering squeeze rather than institutional accumulation.
-3. **Turn 2: Institutional & Physical Deadlock (第二层转折：底层物理与资金死锁 C)**
-   - Reveal the deeper systemic constraint: multi-quarter capex commitments and high refinancing rates cap multi-expansion, rendering the overhead pivot zone a high-probability bull trap.
+3. **Turn 2: Institutional & Physical Deadlock (Systemic Truth C)**
+   - Reveal the deeper systemic constraint: multi-quarter capex commitments and high refinancing rates cap multiple expansion, rendering the overhead pivot zone a high-probability bull trap.
 
 ---
 
-## The Half-Tree Principle for News-Sourced Days (无视频日的半棵树单核心主线法则)
+## The Half-Tree Principle for News-Sourced Days
 
 When writing without a host video transcript, avoid fragmented news collages:
 
-1. **Single Core Tension**: Select **exactly one dominant macro or market conflict** as the trunk (e.g. 10Y yield re-testing 5% pressuring high-multiple valuations, or hyperscaler capex crowding out enterprise software budgets).
+1. **Single Core Tension**: Select **exactly one dominant macro or market conflict** as the trunk (e.g., 10Y yield re-testing 5% pressuring high-multiple valuations, or hyperscaler capex crowding out enterprise software budgets).
 2. **Half-Tree Architecture**: 
    - Dedicate the opening to fully demonstrating the primary cause-and-effect transmission chain.
    - Branch out concurrently to evaluate how this single tension differentially impacts the index (`**SPY**`/`**QQQ**`), leadership hardware (`**NVDA**`/`**TSM**`), and rate-sensitive small caps (`**IWM**`).
@@ -154,13 +154,13 @@ When writing without a host video transcript, avoid fragmented news collages:
 
 ---
 
-## Road Transition Curves (道路缓和曲线工程学)
+## Road Transition Curves
 
 Adopt civil engineering roadway design principles:
 
-- Direct lines (factual data) transitioning into curves (analytical shifts) require a gradual spiral transition curve (缓和曲线).
+- Direct lines (factual data) transitioning into curves (analytical shifts) require a gradual spiral transition curve.
 - Avoid abrupt topical leaps between paragraphs.
-- Every paragraph and section boundary must embed a connective logic bridge (e.g. "The deterioration in tape breadth was not an isolated sentiment hiccup; it reflected a sharp repricing in benchmark discount rates...").
+- Every paragraph and section boundary must embed a connective logic bridge (e.g., "The deterioration in tape breadth was not an isolated sentiment hiccup; it reflected a sharp repricing in benchmark discount rates...").
 
 ---
 

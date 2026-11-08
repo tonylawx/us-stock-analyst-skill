@@ -28,8 +28,8 @@ Use `references/corpus-manifest.md` only when exact historical article paths or 
 - Keep private workflow paths, unpublished notes, credentials, personal portfolios, account details, and operational rules out of this public skill.
 - Do not turn a news headline, source opinion, or market coincidence into a verified fact.
 - **Strictly No Colons in Headings**: The main H1 title and all H2 subheadings must not contain colons (`:` or `：`).
-- **Strictly No Retail Broker Software Attribution**: Do not cite retail brokerage apps (长桥, 富途, 老虎证券, 雪盈证券). Attribute market data to official public exchanges, Bloomberg, or Reuters.
-- **Self-Contained Independence**: Never assume readers know past issues or expose author correction notes (如“上期把...设为观察线”、“上期写下的...应收回”).
+- **Strictly No Retail Broker Software Attribution**: Do not cite retail brokerage apps (Longbridge, Futu, Tiger Brokers, Snowball). Attribute market data to official public exchanges, Bloomberg, or Reuters.
+- **Self-Contained Independence**: Never assume readers know past issues or expose author correction notes (e.g., "in our last issue we marked..." or "retracting last issue's level").
 
 ---
 
@@ -48,7 +48,7 @@ Use `references/corpus-manifest.md` only when exact historical article paths or 
    - *Phase 2*: Micro-ledger calculation (unit economics, FCF conversion, CapEx payback, SBC dilution).
    - *Phase 3*: Conflict and incentive breakdown (upstream vs downstream, option gamma vs institutional flow).
    - *Phase 4*: Historical mirror and physical/institutional deadlocks.
-   - *Phase 5*: Concrete decision pivots (`站稳`, `跌破`, `防守`).
+   - *Phase 5*: Concrete decision pivots (confirmation, breakdown, defense, invalidation).
 8. **Draft in Chinese with Road Transition Curves**: Ensure smooth paragraph-to-paragraph logic bridges; target **2400 ~ 3800 characters** with 3–5 substantive paragraphs per section.
 9. **Pass the Light Research Gate**: Run the checklist in `references/research-standard.md`. Fix unsupported causality, mixed accounting bases, missing units, weak scenario logic, and ticker-tour padding before publishing.
 10. **Downstream Handoff**: When downstream publication, rendering, social-copy, or validation tools exist, use them only after the analytical draft passes the **light research gate**.
@@ -61,19 +61,19 @@ Use `references/corpus-manifest.md` only when exact historical article paths or 
 Start with the tape, not the headline. The first section should answer whether the index move had breadth, volume, closing strength, and overnight confirmation. When breadth diverges from index direction, lead with breadth.
 Volume and VIX divergences are stronger opening hooks than headline index gains. If the market rose on declining volume or VIX rose alongside gains, lead with the divergence.
 
-### 2. Micro-Accounting over PR Narratives (算清微观真实账本)
+### 2. Micro-Accounting over PR Narratives
 Separate operating growth from cash conversion. Revenue, cloud growth, deliveries, or bookings do not settle the thesis when margins, CapEx, depreciation, financing needs, or free cash flow deteriorate.
-Use the sector toolkits in `references/research-standard.md` (e.g. AI hardware unit economics, SaaS CAC payback & Rule of 40, manufacturing cash burn runway).
+Use the sector toolkits in `references/research-standard.md` (e.g., AI hardware unit economics, SaaS CAC payback & Rule of 40, manufacturing cash burn runway).
 
-### 3. Structure of Conflicts over Moralizing (利益博弈与微观结构)
+### 3. Structure of Conflicts over Moralizing
 Treat post-earnings reactions as structural information. Compare guidance, consensus, capital intensity, cash conversion, balance-sheet burden, and starting valuation before judging a reaction.
 Dissect incentives: hyperscaler capex defense vs supplier operating leverage; call gamma squeeze vs institutional de-risking.
 
-### 4. Road Transition Curves (道路缓和曲线过渡工程学)
-Eliminate disjointed jumps. Transition from data to analysis with connective sentences (e.g. "盘面资金追涨意愿的溃退，并不单纯是情绪波动，其深层推手正是债券市场长端资金成本的二次异动……").
+### 4. Road Transition Curves
+Eliminate disjointed jumps. Transition from data to analysis with connective sentences (e.g., "The deterioration in chase-buying momentum was not isolated sentiment; its underlying driver was the secondary yield surge in the bond market...").
 
 ### 5. Executable Decision Levels
-Turn news into a trading structure. Use levels as decisions. Write `站稳`, `跌破`, `守住`, `回到`, `上看`, `下看`, `观察`, and `验证` around concrete prices or zones. State what changes above or below the level.
+Turn news into a trading structure. Use levels as decisions. Articulate concrete price boundaries and confirmation criteria around explicit prices or zones. State what changes above or below the level.
 
 ---
 
