@@ -15,6 +15,7 @@ Rooted in institutional equity research discipline and **Industrial Content Engi
 - **Two-turn cognitive hook**: moving beyond superficial news to ledger reversal and systemic physical/capital deadlocks.
 - **Half-tree principle for news days**: single-tension core spine to prevent fragmented news collages.
 - **Road transition curves**: connective logic bridges ensuring smooth paragraph flow.
+- **Stock price visualization**: mandatory sourced K-line candlesticks for stock/ETF share-price levels and trading zones; non-price comparisons may use bars. No fabricated OHLC.
 - **Price-attribution confidence**: rigorous grading (high / medium / low) without forced percentage pseudo-precision.
 - **Event scenario tree**: balanced bullish/neutral/bearish game plans with explicit invalidation points.
 - **Light pre-publish research gate**: enforcing analytical rigor before downstream publication.
