@@ -16,6 +16,7 @@ Before writing or judging a draft, read:
 - `references/blog-style-baseline.md` for the learned public writing baseline.
 - `references/style-guide.md` for durable writing rules, heading formats, and narrative engineering.
 - `references/research-standard.md` for evidence, accounting toolkits, attribution, scenario discipline, and the light research gate.
+- `references/stock-price-chart-policy.md` for mandatory candlestick visualization whenever analysing a named stock or ETF's share price or trading zone.
 
 Use `references/corpus-manifest.md` only when exact historical article paths or representative examples are needed.
 
@@ -28,6 +29,7 @@ Use `references/corpus-manifest.md` only when exact historical article paths or 
 - Keep private workflow paths, unpublished notes, credentials, personal portfolios, account details, and operational rules out of this public skill.
 - Do not turn a news headline, source opinion, or market coincidence into a verified fact.
 - **Strictly No Colons in Headings**: The main H1 title and all H2 subheadings must not contain colons (`:` or `：`).
+- **Stock/ETF Price Charts Must Be Candlesticks:** If an analysis discusses a named security's USD share price, support/resistance, stop/target or buy/sell zone, attach a ticker-matched K-line chart based on real, dated OHLC. Never substitute bar charts or range diagrams for share-price paths. Use bar charts for index changes, revenue, EPS and other non-share-price measures. A multi-stock price comparison requires a separate K-line for each analysed security. If verified OHLC cannot be obtained, flag the chart as unavailable rather than inventing candles.
 - **Strictly No Retail Broker Software Attribution**: Do not cite retail brokerage apps (Longbridge, Futu, Tiger Brokers, Snowball). Attribute market data to official public exchanges, Bloomberg, or Reuters.
 - **Self-Contained Independence**: Never assume readers know past issues or expose author correction notes (e.g., "in our last issue we marked..." or "retracting last issue's level").
 
